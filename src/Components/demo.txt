@@ -1,0 +1,79 @@
+<div className="font-serif">
+            <div className="mx-8 mt-12 text-left">
+              <p className="text-base">CHG</p>
+              <p className="text-base ml-44">MAICA</p>
+              <p className="text-xl mt-20">SSH Metropolitan</p>
+              <p className="ml-68 text-xl">wv</p>
+              <p className="text-xl ml-112">Jn</p>
+              <p className="text-xl mt-32">VERSITY</p>
+            </div>
+            <div className="mx-16 mt-36 text-left">
+              <p className="text-xl">Metropolitan</p>
+              <p className="text-xl ml-1">University</p>
+            </div>
+            <div className="mx-44 mt-38 text-left">
+              <p className="text-lg">Dept. of</p>
+            </div>
+            <div className="mx-32 mt-8 text-left">
+              <p className="text-lg">Computer Science and Engineering</p>
+            </div>
+            <div className="mx-48 mt-28 text-left">
+              <p className="text-xl">Course:</p>
+            </div>
+            <div className="mx-44 mt-6 text-left">
+              <p className="text-xl">EnglishII</p>
+            </div>
+            <div className="mx-46 text-left">
+              <p className="text-xl">(ENG115)</p>
+            </div>
+            <div className="mx-42 mt-30 text-left">
+              <p className="text-xl">Assignment</p>
+            </div>
+            <div className="mx-12 mt-8 text-left">
+              <p className="text-xl">THE CROODS MOVIE REVIEW</p>
+            </div>
+            <table className="border-collapse border border-black mt-12">
+              <tr>
+                <td className="border-r border-black py-2 pl-2 pr-4">
+                  <p className="text-xs">Submitted By:</p>
+                  <p className="text-xs">Abdullah Al Mahfuz</p>
+                  <p className="text-xs">ID No: 232-112-004</p>
+                  <p className="text-xs">Batch: 33rd</p>
+                  <p className="text-xs">Dept. of CSE (Eve)</p>
+                  <p className="text-xs">Metropolitan University</p>
+                </td>
+                <td className="border-l border-black py-2 pl-4 pr-2">
+                  <p className="text-xs">Submitted To:</p>
+                  <p className="text-xs">Abdullah Al Mashud</p>
+                  <p className="text-xs">Lecturer</p>
+                  <p className="text-xs">Dept. of ENG</p>
+                  <p className="text-xs">Metropolitan University</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+ <br />
+          <h2 className="text-xl font-semibold">Student Info</h2>
+          <p>Name: {formData.student.name}</p>
+          <p>ID: {formData.student.id}</p>
+          <p>Batch: {formData.student.batch}</p>
+          <p>Section: {formData.student.section}</p>
+          <p>Department: {formData.student.department}</p>
+      
+        <div className="mb-4">
+          <h2 className="text-xl font-semibold">Teacher Details</h2>
+          <p>Name: {formData.teacher.name}</p>
+          <p>Designation: {formData.teacher.designation}</p>
+          <p>Department: {formData.teacher.department}</p>
+        </div>
+        <div className="mb-4">
+          <h2 className="text-xl font-semibold">Assignment Title Section</h2>
+          <p>Assignment Title: {formData.assignment.title}</p>
+          <p>Course Name: {formData.assignment.courseName}</p>
+          <p>Course Code: {formData.assignment.courseCode}</p>
+        </div>
+        <div className="mb-4">
+          <h2 className="text-xl font-semibold">Additional Info</h2>
+          <p>Assignment No: {formData.additional.assignmentNo}</p>
+          <p>Submission Date: {formData.additional.submissionDate}</p>
+        </div>
